@@ -45,7 +45,7 @@ FROM `Pizza_Sales.order_details`;
 
 ![image](https://github.com/MohamedWageh09/Pizza-Sales-Analysis-in-BigQuery/assets/120044385/7470c43d-aef9-42a2-920e-810dabaf7fc7)
 
-### Top 5 Selling Pizzas:
+### Top 5 bestseller Pizzas:
 
 ```sql
 SELECT d.name, SUM(b.quantity) AS total_sold FROM `Pizza_Sales.orders` a
