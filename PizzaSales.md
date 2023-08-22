@@ -1,7 +1,6 @@
 # Pizza Sales Analysis
 A year's (2015) worth of sales from a fictitious pizza place, including the date and time of each order and the pizzas served, with additional details on the type, size, quantity, price, and ingredients.
-- You can see the queries on BigQuery:
-https://console.cloud.google.com/bigquery?sq=868099434214:346eb9d9db694076a16cb1ff9aad49aa
+- You can see the queries on BigQuery: https://console.cloud.google.com/bigquery?sq=868099434214:346eb9d9db694076a16cb1ff9aad49aa
 - First you will see the recommendations then the queries with the outputs.
 ## Some of the answered questions:
 - How many customers do we have each day? Are there any peak hours?
