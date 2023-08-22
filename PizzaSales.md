@@ -2,13 +2,25 @@
 A year's (2015) worth of sales from a fictitious pizza place, including the date and time of each order and the pizzas served, with additional details on the type, size, quantity, price, and ingredients.
 - You can see the queries on BigQuery:
 https://console.cloud.google.com/bigquery?sq=868099434214:346eb9d9db694076a16cb1ff9aad49aa
-- First you will see the queries wit hthe outputs then the recommendations
+- First you will see the recommendations then the queries with the outputs.
 ## Some of the answered questions:
 - How many customers do we have each day? Are there any peak hours?
 - How many pizzas are typically in an order? Do we have any bestsellers?
 - How much money did we make this year? Can we indentify any seasonality in the sales?
 - Are there any pizzas we should take of the menu, or any promotions we could leverage?
 
+## Recommendations:
+1) Monthly sales trend:
+      - July: Summer vacations, outdoor activities, and gatherings could lead to increased demand for pizza.
+      - May: Graduations, end-of-school-year parties, and warmer weather might contribute to higher pizza sales.
+      - March: Spring break, sports events, and the transition from winter to spring could drive more pizza orders.
+      - November: Thanksgiving and the start of the holiday season might lead to families ordering pizzas for convenience during busy times.
+  these months are good for promotions
+2) The middle of the day is the peak hours so it would be good to increase the labor force from 11 hr to 13 hr
+3) Friday, Saturday and Thursday are the peak days of the week with 7300+ orders, and the normal days are between 5900 and 6800 and that will be good to launch campaigns and promotions for the normal day to increase the sales
+4) XL and XXL sizes are rarely ordered, customers prefer the normal sizes from S to L so we should avoid promotions on L+ sizes
+5) Our bestsellers are The Classic Deluxe Pizza, The Barbecue Chicken Pizza, The Hawaiian Pizza, The Pepperoni Pizza and The Thai Chicken Pizza promotion on them will lead to more sales
+6) We should take of The Brie Carre Pizza from the menu as it's rarely ordered 
 ### Count, Min, Avg and Max prices for each pizza category:
 
 ```sql
